@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/fetools/work_area/frontend/Batch_11/bkaran/UART/src/design
+vuart_baud
+Z1 !s110 1779446078
+!i10b 1
+!s100 4]inVcnHzB<2fUM?L?_KE3
+I:OUQ@1X9CN?k2eJX=IWYn0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1779445860
+8uart_baud.v
+Fuart_baud.v
+L0 2
+Z3 OE;L;10.6c;65
+r1
+!s85 0
+31
+Z4 !s108 1779446077.000000
+!s107 uart_top.v|uart_rx.v|uart_tx.v|uart_baud.v|
+Z5 !s90 uart_baud.v|uart_tx.v|uart_rx.v|uart_top.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vuart_rx
+R1
+!i10b 1
+!s100 HF1A:3_6ML`6F8573IZhG2
+IUZLnm>ALGKU_XDCnLQaVW3
+R2
+R0
+w1779445974
+8uart_rx.v
+Fuart_rx.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 uart_top.v|uart_rx.v|uart_tx.v|uart_baud.v|
+R5
+!i113 0
+R6
+R7
+vuart_top
+R1
+!i10b 1
+!s100 [Cj0Y]9P@X9jCYk@I43@K0
+I5knZ[j6:WoiE`LGP@@1RA0
+R2
+R0
+w1779446034
+8uart_top.v
+Fuart_top.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7
+vuart_tx
+R1
+!i10b 1
+!s100 NBG4g:f0:zA:VZTKo?gfQ1
+INia1gk6IBEzHLBMEeCno?0
+R2
+R0
+w1779445923
+8uart_tx.v
+Fuart_tx.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 0
+R6
+R7

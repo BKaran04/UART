@@ -5,7 +5,7 @@ module uart_top #(parameter WORD_LEN  = 8,
 (input                  sys_clk,
 input                 sys_rst_l,
 input                  xmitH,
-input  [WORD_LEN-1:0]  xmit_data,
+input  [WORD_LEN-1:0]  xmit_dataH,
 
 output                 uart_clk,
 output                 uart_XMIT_dataH,
@@ -35,7 +35,7 @@ uart_tx #(
 ) TX (
     .sys_rst_l      (sys_rst_l),
     .xmitH          (xmitH),
-    .xmit_data      (xmit_data),
+    .xmit_dataH      (xmit_dataH),
     .uart_clk       (uart_clk),
     .uart_XMIT_dataH(uart_XMIT_dataH),
     .xmit_doneH     (xmit_doneH),

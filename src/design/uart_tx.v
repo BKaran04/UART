@@ -3,7 +3,7 @@ module uart_tx #(parameter WORD_LEN=8)
 (
 input wire sys_rst_l,
 input wire xmitH,
-input wire [WORD_LEN-1:0] xmit_data,
+input wire [WORD_LEN-1:0] xmit_dataH,
 input wire uart_clk,
 output reg uart_XMIT_dataH,
 output reg xmit_doneH,
@@ -39,7 +39,7 @@ begin
         xmit_active <= 1'b0;
         if(xmitH)
         begin
-            tx_shift_reg <= xmit_data;
+            tx_shift_reg <= xmit_dataH;
             tx_bit_counter <= 0;
             tx_baud_counter <= 0;
             xmit_active <= 1'b1;
